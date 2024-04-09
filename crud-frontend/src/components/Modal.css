@@ -1,0 +1,179 @@
+.modal-background {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(50, 50, 50, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container {
+    display: inline-block;
+    text-align: center;
+    width: 50vh;
+    border-radius: 12px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    margin-top: 1rem;
+    overflow: auto;
+}
+
+.modal-title{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.close-button {
+    text-align: right;
+    height: 2rem;
+}
+
+#x-btn{
+    display: inline-block;
+    font-size: 1.5rem;
+    border: none;
+    background-color:rgb(240, 240, 240);
+    border-radius: 50%;
+}
+
+.modal-body{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+option {
+    text-align: center;
+}
+
+
+#cancelBtn {
+    background-color: crimson;
+}
+
+.name-fields-container {
+    font-size: 0;
+    min-width: 25rem;
+}
+
+#firstname-field, #lastname-field {
+    display: inline-block;
+    width: 12rem;
+    max-width: 13rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.name-errors-container {
+    height: 1.5rem;
+    overflow: hidden;
+    text-align: center;
+    min-width: 12rem;
+}
+
+.name-error {
+    display: inline-block;
+    width: 12rem;
+    max-width: 13rem;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(220, 53, 69);
+}
+
+.gender-birthdate-fields-container {
+    font-size: 0;
+}
+
+.gender-birthdate-labels-container{
+    font-size: 0;
+    height: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.gender-div, .birthdate-div {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 12rem;
+    max-width: 13rem;
+    text-align: left;
+    font-size: 1rem;
+    padding-left: 0.3rem;
+}
+
+#gender-field,
+#birthdate-field {
+    display: inline-block;
+    margin-top: 0;
+    width: 12rem;
+    max-width: 13rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.gender-birthdate-errors-container {
+    height: 1.5rem;
+    font-size: 0;
+}
+
+.gender-birthdate-field-error {
+    display: inline-block;
+    height: 1.5rem;
+    width: 12rem;
+    max-width: 13rem;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(220, 53, 69);
+}
+
+#workaddress-field,
+#homeaddress-field {
+    display: inline-block;
+    width: 12rem;
+    max-width: 13rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-top: 1.5rem;
+}
+
+.modal-buttons {
+    margin: 0.5rem;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0.35rem;
+    border-style: solid;
+    border-radius: 0.35rem;
+    border-width: 1px;
+    height: 2.35rem;
+    width: 6.75rem;
+    color: white;
+    transition: background-color border-color 0.15s;
+    font-size: 1rem;
+}
+
+#footerBtnContinue {
+    margin-right: 0;
+    background-color: rgb(40, 170, 70);
+    border-color: rgb(40, 170, 70);
+}
+
+#footerBtnContinue:hover {
+    background-color: rgb(30, 140, 50);
+    border-color: rgb(25, 120, 40);
+}
+
+
+ 
